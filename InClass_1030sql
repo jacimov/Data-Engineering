@@ -1,0 +1,7 @@
+--SELECT * FROM a 
+--LEFT OUTER JOIN b ON a.name = b.name
+--WHERE b.name IS NULL
+
+--SELECT * FROM a 
+--FULL OUTER JOIN b ON a.name = b.name
+--WHERE b.name IS NULL or a.name IS NULL;

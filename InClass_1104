@@ -1,0 +1,22 @@
+--SELECT moment, persona, score
+--FROM events
+--JOIN personae ON events.persona = personae.id
+--WHERE personae.account_balance < 0::money;
+
+--SELECT moment, persona, score
+--FROM events
+--JOIN personae ON events.persona = personae.id;
+
+  SELECT
+    persona,
+    AVG(score) AS avg_score,
+    STDDEV_SAMP(score) AS stddev_score
+  FROM events
+  GROUP BY persona
+)
+
+SELECT e.id, e.persona, e.element, e.score, (e.score - s.avg_score) / s.stddev_score AS z_score
+FROM events e
+JOIN student_stats s
+ON e.persona = s.persona
+LIMIT 10;
