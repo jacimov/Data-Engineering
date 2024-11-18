@@ -1,4 +1,14 @@
-# Data Engineering and Distributed Environments
+# Data Engineering and Distributed Environments - Course Repository
+
+This repository contains my coursework and projects for the Data Engineering and Distributed Environments course at Carnegie Mellon University.
+
+## Repository Structure
+This repository includes:
+- Homework assignments
+- Project work
+- SQL queries and database work
+- Python scripts for data pipeline development
+- Cloud computing exercises
 
 ## Course Information
 - **Term**: Fall 2024, mini 2
