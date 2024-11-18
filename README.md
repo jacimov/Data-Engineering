@@ -91,4 +91,3 @@ Students with disabilities are encouraged to discuss accommodation needs with th
 ## Diversity and Inclusion
 CMU is committed to diversity, equity, and inclusion. Students experiencing or witnessing bias or discrimination can report incidents through:
 - Center for Student Diversity and Inclusion: csdi@andrew.cmu.edu, (412) 268-2150
-- Report-It online anonymous reporting platform (username: tartans, password: plaid)
